@@ -1,0 +1,14 @@
+{
+	"Module2" : {
+		"menu-1" : {
+			"create" : "Role-A",
+			"update" : "Role-B",
+			"delete" : "Role-C"
+		},
+		"menu-2" : {
+			"create" : "Role-A",
+			"update" : "Role-B",
+			"delete" : "Role-C"
+		}
+	}
+}
