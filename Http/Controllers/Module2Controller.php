@@ -12,7 +12,7 @@ class Module2Controller extends Controller
      * Display a listing of the resource.
      * @return Response
      */
-    public function index()
+    public function menu1()
     {
         $data = [
             'data' => [
@@ -30,10 +30,10 @@ class Module2Controller extends Controller
                 ],
             ]
         ];
-        return view('module2::index');
+        return view('module2::menu1');
     }
 
-    public function index2()
+    public function menu2()
     {
         $data = [
             'data' => [
@@ -51,7 +51,8 @@ class Module2Controller extends Controller
                 ],
             ]
         ];
-        return view('module2::index2');
+        throw new \Libraries\FunpodiumAPIClient\Exception\FunpodiumAPIClientException('error');
+        return view('module2::menu2');
     }
 
     /**
