@@ -30,7 +30,7 @@ class Module2Controller extends Controller
                 ],
             ]
         ];
-        return view('module2::menu1');
+        return view('module2::menu-1');
     }
 
     public function menu2()
@@ -52,7 +52,7 @@ class Module2Controller extends Controller
             ]
         ];
         throw new \Libraries\FunpodiumAPIClient\Exception\FunpodiumAPIClientException('error');
-        return view('module2::menu2');
+        return view('module2::menu-2');
     }
 
     /**
