@@ -1,4 +1,4 @@
-@extends('common.header')
+@extends('common.microservice', ['style'=>''])
 
 @section('content')
 <h1>module2 - content 2</h1>
